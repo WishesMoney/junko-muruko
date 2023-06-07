@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #lowest {
+        position: relative;
+        height: 800px;
+        width: 800px;
+        z-index: 1;
+        border-radius: 50%;  
+    }
+
+    #mid {
+        position: absolute;
+        z-index: 2;
+        border-radius: 50%;
+        width: 340px;
+        position: absolute;
+        left: 340px;
+        top: 50px;
+    }
+
+    #high {
+        border-radius: 50%;
+        width: 340px;
+        z-index: 3;
+        position: fixed;
+        left: 340px;
+        top: 50px;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        color: hotpink;
+        text-align:center;
+
+        font-size: 4rem;
+    }
+
+    body {
+        background-color: black;
+    }
+
+
+
+</style>
+<body>
+
+    <img src="./assets/images/mukuro_junko.jpg" id="lowest">  
+    <img src="./assets/images/junko_alive.jpg" id="mid">  
+    <img src="./assets/images/junko.jpg" id="high">   
+    <h1>Family Portrait</h1>
+
+</body>
+</html>
